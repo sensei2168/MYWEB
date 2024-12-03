@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>我喜欢的音乐</title>
+<style>
+    body {
+        background-image: url('../images/音乐.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    #content {
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6); /* 背景色半透明 */
+        margin-top: 50px;
+    }
+    .music-player {
+        margin-top: 20px;
+    }
+    a {
+        color: #ff0;
+    }
+</style>
+</head>
+<body>
+    <div id="header">
+        <h1>我喜欢的音乐</h1>
+    </div>
+	<br><br><br><br>
+    <div id="content">
+        <h2>这里是我最喜欢的几首音乐</h2>
+        
+        <div class="music-player">
+            <h3>音乐1：<em>Terrasphere</em></h3>
+            <audio controls>
+                <source src="../music/Terrasphere.mp3" type="audio/mp3">
+            </audio>
+        </div>
+<br><br><br><br>
+        <div class="music-player">
+            <h3>音乐2：<em>Theme 87</em></h3>
+            <audio controls>
+                <source src="../music/Theme 87.mp3" type="audio/mp3">
+            </audio>
+        </div>
+<br><br><br><br>
+        <div class="music-player">
+            <h3>音乐3：<em>《发如雪》</em></h3>
+            <audio controls>
+                <source src="../music/周杰伦-发如雪.mp3" type="audio/mp3">
+            </audio>
+        </div>
+	<br><br><br><br><br><br>
+		<div id="nav">
+        <a href="../index.html">返回首页</a>
+    </div>
+    </div>
+	<br><br><br><br><br>
+    <div id="footer">
+        &copy; 2024 我的音乐页面
+    </div>
+</body>
+</html>
